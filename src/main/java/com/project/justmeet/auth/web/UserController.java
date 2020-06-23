@@ -39,10 +39,10 @@ public class UserController {
 	@GetMapping("/signin")
 	public String login(Model model, String error, String logout) {
 		if (error != null)
-			model.addAttribute("error", "");
+			model.addAttribute("error", "pass e user non validi");
 
 		if (logout != null)
-			model.addAttribute("message", "");
+			model.addAttribute("message", "sloggato ok");
 
 		return "signin";
 	}

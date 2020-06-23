@@ -32,7 +32,7 @@
 					In</button>
 			</div>
 			<h4 class="text-center">
-				<a href="${contextPath}/registration"
+				<a href="${contextPath}/signup"
 					class="btn btn-lg btn-primary btn-block" role="button">Create
 					an account</a>
 			</h4>

@@ -37,7 +37,7 @@
 						class="nav-link dropdown-toggle" href="#" id="dropdown07XL"
 						data-toggle="dropdown" aria-expanded="false">Eventi</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown07XL">
-							<a class="dropdown-item" href="eventcreation.jsp">Crea evento</a>
+							<a class="dropdown-item" href="creaEvento.jsp">Crea evento</a>
 						</div></li>
 					<li class="nav-item"><a class="nav-link"
 						onclick="document.forms['logoutForm'].submit()">Logout</a></li>

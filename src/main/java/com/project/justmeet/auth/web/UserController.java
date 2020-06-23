@@ -25,7 +25,7 @@ public class UserController {
 	}
 
 	@PostMapping("/signup")
-	public String registration(@ModelAttribute("userForm") User userForm, BindingResult bindingResult) {
+	public String signup(@ModelAttribute("userForm") User userForm, BindingResult bindingResult) {
 		userValidator.validate(userForm, bindingResult);
 
 		if (bindingResult.hasErrors())
@@ -37,7 +37,7 @@ public class UserController {
 	}
 
 	@GetMapping("/signin")
-	public String login(Model model, String error, String logout) {
+	public String signin(Model model, String error, String logout) {
 		if (error != null)
 			model.addAttribute("error", "pass e user non validi");
 

@@ -1,0 +1,34 @@
+<br>
+<br>
+<hr>
+<!-- Footer -->
+<footer class="page-footer font-small black">
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">
+		© 2020 Copyright: <a href="home"> JustMeet</a>
+	</div>
+	<!-- Copyright -->
+</footer>
+<!-- Footer -->
+<script src="https://kit.fontawesome.com/d3f031d369.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="${contextPath}/resources/js/bootstrap.min.js"></script>
+<script>
+	function myFunction() {
+		var x = document.getElementById("myInput");
+		if (x.type === "password")
+			x.type = "text";
+		else
+			x.type = "password";
+	}
+</script>
+<script type="text/javascript">
+	if ("${creator}" === "true" || "${participate}" === "true")
+		document.getElementById("addParticipation").style.display = "none";
+
+	if ("${creator}" === "true" || "${participate}" === "false")
+		document.getElementById("deleteParticipation").style.display = "none";
+</script>
+</body>
+</html>
